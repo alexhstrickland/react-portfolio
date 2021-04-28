@@ -1,4 +1,4 @@
-import Home from '../home/index';
+
 
 function Footer() {
     return (

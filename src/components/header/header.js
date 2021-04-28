@@ -1,4 +1,5 @@
 import Home from '../home/index';
+import Headshot from '../images/Original.jpeg';
 
 function Header() {
     return (
@@ -6,7 +7,7 @@ function Header() {
 
             <section className="container">
                 <a href="index.html">
-                <img className="logo" src="assets/images/Original.jpeg" alt="logo"></img>
+                <img className="logo" src={Headshot} alt="logo"></img>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
