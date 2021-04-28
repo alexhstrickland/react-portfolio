@@ -1,7 +1,6 @@
-import Home from '../../pages/home/home';
-import Portfolio from '../../pages/portfolio/index.js';
-import Contact from '../../pages/contact/contact.js';
 import "./style.css";
+import React from "react";
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -15,9 +14,9 @@ function Header() {
                 </button>
                 <section className="collapse navbar-collapse" id="navbar">
                 <section className="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <a className="nav-link" src={Home} href="index.html">Home</a>
-                    <a className="nav-link" src={Portfolio} href="portfolio.html">Portfolio</a>
-                    <a className="nav-link" src={Contact} href="contact.html">Contact </a>
+                    <Link className="link" to="/">Home</Link>
+                    <Link className="link" to="/Portfolio">Portfolio</Link>
+                    <Link className="link" to="/Contact">Contact</Link>
                 </section>
                 </section>
             </section>
