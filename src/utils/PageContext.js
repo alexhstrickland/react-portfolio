@@ -9,4 +9,4 @@ const PageContext = React.createContext({
     onclick: () => undefined
 });
 
-export  default PageContext;
+export default PageContext;

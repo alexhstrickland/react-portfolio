@@ -1,0 +1,11 @@
+.headshot {
+
+    width: 85%;
+    height: 85%;
+    border-radius: 50%; 
+    margin-top: 25px;
+  }
+
+  main {
+    margin: 105px 10px;
+  }

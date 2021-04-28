@@ -1,8 +1,8 @@
-import Header from "./components/header";
-import Footer from "./components/footer";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+import Home from "./pages/home/home";
+import Contact from "./pages/contact/contact";
+import Portfolio from "./pages/portfolio/index";
 import React, { useState } from "react";
 import PageContext from "./utils/PageContext";
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
@@ -30,7 +30,7 @@ function App() {
         <Route exact path="/Portfolio" component={Portfolio}/>
         <Route exact path="/Contact" component={Contact} />
         </Switch>
-        <Footer />
+        <Footer/>
 
 
       </div>
@@ -38,3 +38,5 @@ function App() {
     </PageContext.Provider>
   );
 }
+
+export default App;
