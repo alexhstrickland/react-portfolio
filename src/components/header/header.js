@@ -1,4 +1,6 @@
-import Home from '../home/index';
+import Home from '../../pages/home/index';
+import Portfolio from '../../pages/portfolio/index.js';
+import Contact from '../../pages/contact/contact.js';
 import Headshot from '../images/Original.jpeg';
 
 function Header() {
@@ -14,10 +16,9 @@ function Header() {
                 </button>
                 <section className="collapse navbar-collapse" id="navbar">
                 <section className="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <a className="nav-link" href="index.html">Home</a>
-                    <a className="nav-link" href="resume.html">Resume</a>
-                    <a className="nav-link" href="portfolio.html">Portfolio</a>
-                    <a className="nav-link active" href="contact.html">Contact <span className="sr-only">(current)</span></a>
+                    <a className="nav-link" src={Home} href="index.html">Home</a>
+                    <a className="nav-link" src={Portfolio} href="portfolio.html">Portfolio</a>
+                    <a className="nav-link active" src={Contact} href="contact.html">Contact <span className="sr-only">(current)</span></a>
                 </section>
                 </section>
             </section>
