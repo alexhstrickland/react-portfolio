@@ -3,6 +3,7 @@ import "./style.css";
 function Contact() {
     return (
         <div className="container">
+            <br></br><br></br><br></br><br></br>
             <h1>Contact</h1>
             <div>
                 <form>
