@@ -23,7 +23,7 @@
   ## Usage
   Click on the tabs at the top right of the page to navigate to each separate page on my website!
 
-  [![Website Screenshot](public/assets/images/screenshot.png)]
+  ![Website Screenshot](public/assets/images/screenshot.png)
   
   [Deployed Application](https://alexhstrickland.github.io/)
 
